@@ -1,0 +1,20 @@
+*Geral*
+Comportamento do Software
+
+Os eventos são representados em uma matriz de eventos,possuindo
+quatro tipos de eventos em cada indice.
+ Eventos:
+  *1 térreo composto basicamente do evento mais basico e estáticos,terreno,agua,areia,etc.
+  *2 planicie composto de eventos estéticos e estáticos ex: flores, arbustos,paredes.
+  *3 alto parecido com o 2°porrem com eventos de formato mais alto ex:casas,telhados,
+     copa de arvores.
+  *4 eventos como jogadores,mostros,magias,portas que nao sao estáticos e possuem logica
+     envolvida.
+Esses eventos serao executados de acordo com esses tipos.Ex:ao trocar de indicie
+da matriz mapa,sera executados a logica e render de cada um por vez começando pelo
+tipo de evento 1° (térreo) carregando um chão de terra estático e sem logica 
+envolvida,assim como no primeiro e carregado um evento de pedra no (2°) e uma grama 
+no (3°) já no indice (4°) é carregado um evento com logica(jogador,npc,monstro) que 
+sera verificado estado e comportamentos podendo assim alterar os estados de outros 
+eventos em outros indicies da matriz mapa,é possivel haver mais de um evento do 
+tipo(4°).
