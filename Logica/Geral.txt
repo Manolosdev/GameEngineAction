@@ -1,4 +1,4 @@
-*Geral*
+**Geral**
 Comportamento do Software
 
 Os eventos são representados em uma matriz de eventos,possuindo
