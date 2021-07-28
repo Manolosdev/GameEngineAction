@@ -9,6 +9,7 @@ Estudo particular realizado durante tempo vago para o aperfeiçoamento do paradi
 
 ### Funcionalidades abordadas
 * Motor do jogo (60 fps)
+* Gênero de plataforma
 * Controle de personagem
 * Sistema de colisão
 * Sistema de alteração de fase
