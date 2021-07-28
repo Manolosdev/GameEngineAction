@@ -14,6 +14,9 @@ Estudo particular realizado durante tempo vago para o aperfeiçoamento do paradi
 * Sistema de colisão
 * Sistema de alteração de fase
 
+### Ilustração do projeto
+![Image of Yaktocat](https://raw.githubusercontent.com/Manolosdev/MotorJogoRpgAction/master/ilustracao.png)
+
 ### Considerações
 Projeto apenas para estudo e entendimento do seguimento de desenvolvimento de jogos e curiosidade.
 
